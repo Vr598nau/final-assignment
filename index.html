@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Lights Out Game</title>
+</head>
+<body>
+  <header>
+    <h1>Lights Out Game</h1>
+  </header>
+  <div id="board" class="board"></div>
+  <div id="info">
+    <p>Target Moves: 15</p>
+    <p>Moves: <span id="actual-moves">0</span></p>
+    <p>timer: <span id="timer">0s</span></p>
+  </div>
+  <script src="script.js"></script>
+  <footer>
+    <h2>Addendum</h2>
+    <p>
+        In the creation of the Lights Out Game, a deliberate design approach was taken to enhance the overall user experience and visual appeal.
+      </p>
+      <ol>
+        <li><strong>Background Gradient:</strong> The background features a captivating gradient (45deg, #4CAF50, #2196F3), adding a dynamic and modern touch to the game interface.</li>
+        <li><strong>Header and Footer Pattern:</strong> Consistent header and footer patterns were implemented for a structured layout, providing a unified and professional look throughout the game.</li>
+        <li><strong>Target Moves:</strong> A target moves indicator was introduced to set a challenge for the players, encouraging strategic thinking and adding an additional layer of complexity to the game.</li>
+        <li><strong>Grid Color:</strong> The grid utilizes a color scheme (#FFC107 for on-state and #E91E63 for off-state) that not only complements the background but also enhances visibility and interaction.</li>
+        <li><strong>Dynamic Timer:</strong> The timer functionality was integrated seamlessly into the game, starting on the first button click and providing real-time feedback on the player's performance.</li>
+        <li><strong>Grid Layout:</strong> Utilized CSS Grid to create a visually appealing 5x5 game board.</li>
+        <li><strong>Button Design:</strong> Implemented buttons as grid squares with dynamic color changes to represent on/off states.</li>
+        <li><strong>Event Listeners:</strong> Added click events to buttons, triggering a function to toggle square states and check for game completion.</li>
+        <li><strong>Dynamic Updates:</strong> Real-time move count updates and a winning alert provide feedback to the player.</li>  
+    </ol>
+      <p>
+        Overcoming challenges during development involved careful consideration of timing and event handling, ensuring a smooth and intuitive user experience.
+      </p>
+      <p>
+        Insights gained included the importance of harmonizing design elements, providing clear objectives, and leveraging dynamic features to engage and challenge players effectively.
+      </p>
+      <p>
+        The Lights Out Game stands as a testament to the fusion of design and functionality, creating an enjoyable and visually pleasing web-based gaming experience.
+      </p>
+    </footer>
+  </footer>
+</body>
+</html>
